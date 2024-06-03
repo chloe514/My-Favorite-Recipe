@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0066cc; /* Blue color for the heading */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Extra small devices (phones, 0px and up) */
+@media (max-width: 599px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Medium devices (landscape tablets and small desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Devices with a screen width between 600px and 1200px in portrait orientation */
+@media (min-width: 600px) and (max-width: 1200px) and (orientation: portrait) {
+    body {
+        background-color: lightgrey;
+    }
+}
+
+.ordered_list {
+    text-align: left;
+    font-family: 'Georgia';
+    color: blue;
+}
+
+
+
+.ordered_list {text-align: left; font-family:'Georgia'; color:blue}
+
+
+
+
+
+
+
